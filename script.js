@@ -33,7 +33,7 @@ function draw() {
   let pi = 4*(pointin/points);
     textSize(25);
     fill(255);
-    text('Approximation of pi with \n'+points+' points is: '+pi,70,200);
+    text('Approximation of pi with \n'+c+' points is: '+pi,70,200);
   if(listo){
     c+=1;
   }

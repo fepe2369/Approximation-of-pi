@@ -28,12 +28,13 @@ function draw() {
     drawPoint();
   }
   else{
-    listo = false;
-  }
-  let pi = 4*(pointin/points);
+    let pi = 4*(pointin/points);
     textSize(25);
     fill(255);
     text('Approximation of pi with \n'+points+' points is: '+pi,70,200);
+    listo = false;
+  }
+  
   if(listo){
     c+=1;
   }
